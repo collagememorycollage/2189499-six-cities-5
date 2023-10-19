@@ -15,13 +15,15 @@ export class TSVFileReader extends EventEmitter implements FileReader {
       encoding: 'utf-8',
     });
 
-    let remainingData = '';
-    let nextLinePosition = -1;
-    let importedRowCount = 0;
+    // let remainingData = '';
+    // let nextLinePosition = -1;
+    // let importedRowCount = 0;
 
-    for await (const chunk of readStream) {
-      remainingData += chunk.toString();
-    }
+    // for await (const chunk of readStream) {
+    //   remainingData += chunk.toString();
+
+    //   while((nextLinePosition = remainingData))
+    // }
 
   }
 }
