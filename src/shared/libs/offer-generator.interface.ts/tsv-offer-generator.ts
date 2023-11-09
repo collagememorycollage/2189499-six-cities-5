@@ -1,5 +1,5 @@
 import { MockServerData } from '../../types/mock-server-data.type.js';
-import { getRandomItem, generateRandomValue } from '../../types/helpers/common.js';
+import { getRandomItem, generateRandomValue } from '../../../helpers/helpers/common.js';
 import { OfferGenerator } from './offer-generator.interface.js';
 import { City } from '../../types/index.js';
 import dayjs from 'dayjs';
