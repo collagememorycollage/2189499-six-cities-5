@@ -1,4 +1,4 @@
-import { Rent, HouseType} from '../../index.js';
+import { Rent, HouseType} from '../../types/index.js';
 
 export function createRent(rentData: string): Rent {
 

@@ -1,5 +1,5 @@
-import { Logger } from './loger.interface.js';
-import { Logger as PinoInstance, pino} from 'pino';
+import { Logger as PinoInstance, pino } from 'pino';
+import { Logger } from './logger.interface.js';
 
 export class PinoLogger implements Logger {
   private readonly logger: PinoInstance;
