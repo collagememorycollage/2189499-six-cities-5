@@ -1,2 +1,1 @@
-import { Config } from './config.interface.js';
-
+export * from './config.interface.js';
